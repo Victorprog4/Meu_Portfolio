@@ -1,0 +1,62 @@
+//animação dos icones da seção de projetos
+
+@keyframes react1 {
+  from {
+    opacity: 1;
+    color: #61dafb;
+  }
+  to {
+    opacity: 0.6;
+  }
+}
+
+@keyframes js1 {
+  from {
+    opacity: 1;
+    color: #f0db4f;
+  }
+  to {
+    opacity: 0.6;
+  }
+}
+
+@keyframes css1 {
+  from {
+    opacity: 1;
+    color: #1572b6;
+  }
+  to {
+    opacity: 0.6;
+  }
+}
+
+@keyframes sass1 {
+  from {
+    opacity: 1;
+    color: #cb6699;
+  }
+  to {
+    opacity: 0.6;
+  }
+}
+@keyframes aws1 {
+  from {
+    opacity: 1;
+    color: #f7a80d;
+  }
+  to {
+    opacity: 0.6;
+  }
+}
+
+
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(3.125rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }

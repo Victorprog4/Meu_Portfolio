@@ -1,0 +1,132 @@
+@import "partials/colors";
+@import "partials/header";
+@import "partials/typography";
+@import "partials/hero";
+@import "partials/buttons";
+@import "partials/projects";
+@import "partials/animations";
+@import "partials/habilidades";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 64rem;
+  width: 100%;
+  margin: 0 auto;
+  background-color: $background;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar-track {
+  background-color: $background;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: $background;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $primary-color-linear;
+  border-radius: 8px;
+}
+
+
+.about-me {
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr 1fr;
+  grid-template-rows: 0.4fr 2.1fr 0.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "title . ."
+    "Photo . describe"
+    "Contact-me . Button";
+}
+
+.title {
+  grid-area: title;
+  h1 {
+    font-size: 4em;
+    color: $white-200;
+    text-transform: uppercase;
+    text-align: start;
+  }
+}
+
+.Photo {
+  grid-area: describe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.describe {
+  grid-area: Photo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-size: 1.2em;
+    text-align: start;
+    color: $white-300;
+    letter-spacing: 0.05em;
+    line-height: 140%;
+  }
+}
+
+.Button {
+  grid-area: Contact-me;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Contact-me {
+  grid-area: Button;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.8rem;
+
+  i {
+    font-size: 2em;
+    color: $white-400;
+    opacity: 0.8;
+    margin: 0 1.4rem;
+    transition: 0.3s;
+
+    &:hover {
+      color: $primary-color;
+      opacity: 1;
+      text-shadow: 0px 0px 15px rgba(159, 16, 28, 1);
+      transform: scale(1.03);
+    }
+  }
+}
+
+
+
+
+.circulo-giratorio {
+  opacity: 1;
+  transform-origin: center center;
+  animation: gira-circulo 20s ease infinite alternate;
+}
+
+@keyframes gira-circulo {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+     transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,224 @@
+.projects {
+  margin-top: 5rem;
+
+  .title {
+    width: auto;
+    height: 100%;
+
+    span {
+      color: $primary-color;
+    }
+
+    h2 {
+      color: $white-200;
+      font-size: 3em;
+      letter-spacing: 4px;
+      font-weight: 500;
+    }
+  }
+  .cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 23.43rem;
+      width: 23.43rem;
+      height: 33.75rem;
+      border: 2px solid $black-100;
+      border-radius: 0.313em;
+      padding: 0 1rem;
+      transition: 0.6s;
+      margin: 4rem 0;
+
+      &:after {
+        content: "UI/UX Design";
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-size: 2em;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        color: $white-200;
+        width: 23.43rem;
+        height: 33.75rem;
+        background-color: rgba(9, 9, 9, 0.9);
+        z-index: 99;
+        position: absolute;
+        transition: 0.5s ease-out;
+      }
+
+      &:hover {
+        border: 2px solid $primary-color;
+      }
+
+      &:hover:after {
+        background-color: rgba(0, 0, 0, 0);
+        color: transparent;
+        font-size: 20%;
+        width: 0px;
+        height: 0px;
+      }
+
+      p {
+        color: $white-300;
+        font-size: 1.125em;
+      }
+
+      .icons {
+        width: 100%;
+
+        i {
+          margin-top: 1.5rem;
+          margin-bottom: 1.5rem;
+          margin-right: 1rem;
+          font-size: 2em;
+          color: $black-100;
+        }
+      }
+    }
+
+    .card-after-01 {
+      &:after {
+        content: "UI/UX Design";
+      }
+    }
+
+    .card-after-02 {
+      &:after {
+        content: "Product Manager";
+      }
+    }
+
+    .card-after-03 {
+      &:after {
+        content: "Product Design";
+      }
+    }
+
+    .card-after-04 {
+      &:after {
+        content: "Dev front-end";
+      }
+
+      &:hover {
+        border: 2px solid $primary-color;
+      }
+
+      &:hover:after {
+        background-color: rgba(0, 0, 0, 0);
+        color: transparent;
+        font-size: 20%;
+        width: 0px;
+        height: 0px;
+      }
+
+      p {
+        color: $white-300;
+        font-size: 1.125em;
+      }
+
+      .icons {
+        width: 100%;
+
+        i {
+          margin-top: 1.5rem;
+          margin-bottom: 1.5rem;
+          margin-right: 1rem;
+          font-size: 2em;
+          color: $black-100;
+        }
+      }
+    }
+
+    .buttons-project {
+      margin-top: 2rem;
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: start;
+
+      button {
+        margin-right: 3rem;
+      }
+    }
+  }
+}
+
+.react {
+  animation: react1 3s ease-in-out 0.5s infinite alternate;
+}
+.js {
+  animation: js1 3s ease-in-out 1s infinite alternate;
+}
+.css {
+  animation: css1 3s ease-in-out 2s infinite alternate;
+}
+.sass {
+  animation: sass1 3s ease-in-out 3.2s infinite alternate;
+}
+.aws {
+  animation: aws1 3s ease-in-out 4.2s infinite alternate;
+}
+
+//media mobile small
+@media only screen and (max-width: 25rem) {
+  .projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+      max-width: 300px;
+      width: 100%;
+
+      h2 {
+        color: $white-200;
+        font-size: 2em;
+        letter-spacing: 4px;
+        font-weight: 500;
+      }
+    }
+
+    .card {
+      max-width: 320px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1.5rem 0;
+
+      p {
+        color: $white-300;
+        font-size: 1.125em;
+      }
+
+      .icons {
+        width: 100%;
+
+        i {
+          margin-top: 1.5rem;
+          margin-bottom: 1.5rem;
+          margin-right: 1rem;
+          font-size: 2em;
+          color: $black-100;
+        }
+      }
+      img {
+        width: 21.25rem;
+      }
+    }
+
+    .buttons-project {
+      button {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
