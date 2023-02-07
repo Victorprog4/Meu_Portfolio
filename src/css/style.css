@@ -43,7 +43,6 @@ header .nav-list li {
 header .mobile-menu {
   display: none;
   cursor: pointer;
-  z-index: 88;
 }
 header .mobile-menu div {
   width: 2rem;
@@ -72,7 +71,6 @@ header .nav-list.active {
     justify-content: space-around;
     transform: translateY(100%);
     transition: transform 0.3s ease-in;
-    z-index: 88;
   }
   header .nav-list li {
     margin-left: 0;
