@@ -74,7 +74,6 @@ header {
     }
 
     .nav-list {
-      border: 1px solid red;
       position: absolute;
       top: 8vh;
       right: 0;
@@ -97,11 +96,11 @@ header {
 
     .mobile-menu {
       display: block;
-      padding-right: 4rem;
+      padding-right: 1rem;
     }
 
     .logo {
-      padding-left: 4rem;
+      padding-left: 1rem;
     }
   }
 }

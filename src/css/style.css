@@ -59,7 +59,6 @@ header .nav-list.active {
     overflow-x: hidden;
   }
   header .nav-list {
-    border: 1px solid red;
     position: absolute;
     top: 8vh;
     right: 0;
@@ -80,10 +79,10 @@ header .nav-list.active {
   }
   header .mobile-menu {
     display: block;
-    padding-right: 4rem;
+    padding-right: 1rem;
   }
   header .logo {
-    padding-left: 4rem;
+    padding-left: 1rem;
   }
 }
 
@@ -335,28 +334,23 @@ h2, h3, h4, a, span, p {
 }
 
 .react {
-  -webkit-animation: react1 3s ease-in-out 0.5s infinite alternate;
-          animation: react1 3s ease-in-out 0.5s infinite alternate;
+  animation: react1 3s ease-in-out 0.5s infinite alternate;
 }
 
 .js {
-  -webkit-animation: js1 3s ease-in-out 1s infinite alternate;
-          animation: js1 3s ease-in-out 1s infinite alternate;
+  animation: js1 3s ease-in-out 1s infinite alternate;
 }
 
 .css {
-  -webkit-animation: css1 3s ease-in-out 2s infinite alternate;
-          animation: css1 3s ease-in-out 2s infinite alternate;
+  animation: css1 3s ease-in-out 2s infinite alternate;
 }
 
 .sass {
-  -webkit-animation: sass1 3s ease-in-out 3.2s infinite alternate;
-          animation: sass1 3s ease-in-out 3.2s infinite alternate;
+  animation: sass1 3s ease-in-out 3.2s infinite alternate;
 }
 
 .aws {
-  -webkit-animation: aws1 3s ease-in-out 4.2s infinite alternate;
-          animation: aws1 3s ease-in-out 4.2s infinite alternate;
+  animation: aws1 3s ease-in-out 4.2s infinite alternate;
 }
 
 @media only screen and (max-width: 25rem) {
@@ -375,11 +369,16 @@ h2, h3, h4, a, span, p {
     font-weight: 500;
   }
   .projects .card {
-    width: 80%;
+    max-width: 19rem;
+    width: 19rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
     margin: 1.5rem 0;
+  }
+  .projects .card:after {
+    width: 19rem;
   }
   .projects .card p {
     color: #DADADA;
@@ -396,34 +395,16 @@ h2, h3, h4, a, span, p {
     color: #707070;
   }
   .projects .card img {
-    width: 21.25rem;
+    width: 18rem;
   }
   .projects .buttons-project button {
     margin-right: 1rem;
-  }
-}
-@-webkit-keyframes react1 {
-  from {
-    opacity: 1;
-    color: #61dafb;
-  }
-  to {
-    opacity: 0.6;
   }
 }
 @keyframes react1 {
   from {
     opacity: 1;
     color: #61dafb;
-  }
-  to {
-    opacity: 0.6;
-  }
-}
-@-webkit-keyframes js1 {
-  from {
-    opacity: 1;
-    color: #f0db4f;
   }
   to {
     opacity: 0.6;
@@ -438,28 +419,10 @@ h2, h3, h4, a, span, p {
     opacity: 0.6;
   }
 }
-@-webkit-keyframes css1 {
-  from {
-    opacity: 1;
-    color: #1572b6;
-  }
-  to {
-    opacity: 0.6;
-  }
-}
 @keyframes css1 {
   from {
     opacity: 1;
     color: #1572b6;
-  }
-  to {
-    opacity: 0.6;
-  }
-}
-@-webkit-keyframes sass1 {
-  from {
-    opacity: 1;
-    color: #cb6699;
   }
   to {
     opacity: 0.6;
@@ -474,15 +437,6 @@ h2, h3, h4, a, span, p {
     opacity: 0.6;
   }
 }
-@-webkit-keyframes aws1 {
-  from {
-    opacity: 1;
-    color: #f7a80d;
-  }
-  to {
-    opacity: 0.6;
-  }
-}
 @keyframes aws1 {
   from {
     opacity: 1;
@@ -490,16 +444,6 @@ h2, h3, h4, a, span, p {
   }
   to {
     opacity: 0.6;
-  }
-}
-@-webkit-keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(3.125rem);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
   }
 }
 @keyframes navLinkFade {
@@ -542,31 +486,15 @@ h2, h3, h4, a, span, p {
 }
 
 .layer-subindo-200 {
-  -webkit-animation: layer-subindo-200 1.8s linear infinite forwards;
-          animation: layer-subindo-200 1.8s linear infinite forwards;
+  animation: layer-subindo-200 1.8s linear infinite forwards;
   transform: translateY(0);
   opacity: 0;
 }
 
 .layer-subindo-100 {
-  -webkit-animation: layer-subindo-200 1.8s linear 0.9s infinite forwards;
-          animation: layer-subindo-200 1.8s linear 0.9s infinite forwards;
+  animation: layer-subindo-200 1.8s linear 0.9s infinite forwards;
   transform: translateY(0);
   opacity: 0;
-}
-
-@-webkit-keyframes layer-subindo-200 {
-  0% {
-    transform: translateY(0);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-34px);
-    opacity: 0;
-  }
 }
 
 @keyframes layer-subindo-200 {
@@ -583,17 +511,7 @@ h2, h3, h4, a, span, p {
   }
 }
 .stroke-entorno {
-  -webkit-animation: stroke-entorno 9s linear infinite alternate;
-          animation: stroke-entorno 9s linear infinite alternate;
-}
-
-@-webkit-keyframes stroke-entorno {
-  from {
-    stroke-dasharray: 20;
-  }
-  to {
-    stroke-dashoffset: 300;
-  }
+  animation: stroke-entorno 9s linear infinite alternate;
 }
 
 @keyframes stroke-entorno {
