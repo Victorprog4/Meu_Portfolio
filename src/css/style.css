@@ -59,6 +59,7 @@ header .nav-list.active {
     overflow-x: hidden;
   }
   header .nav-list {
+    border: 1px solid red;
     position: absolute;
     top: 8vh;
     right: 0;

@@ -52,7 +52,7 @@ header {
   .mobile-menu {
     display: none;
     cursor: pointer;
-    
+
     div {
       width: 2rem;
       height: 0.25em;
@@ -74,6 +74,7 @@ header {
     }
 
     .nav-list {
+      border: 1px solid red;
       position: absolute;
       top: 8vh;
       right: 0;
