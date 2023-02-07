@@ -1,6 +1,3 @@
-header {
-  overflow: hidden;
-}
 header a {
   color: #ffffff;
   text-decoration: none;
@@ -31,7 +28,7 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  font-family: "Poppins" sans-serif;
   background: #090909;
   height: 8vh;
 }
@@ -60,7 +57,7 @@ header .nav-list.active {
 }
 @media only screen and (max-width: 52.75rem) {
   header body {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   header .nav-list {
     position: absolute;
@@ -73,7 +70,7 @@ header .nav-list.active {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    transform: translateX(100%);
+    transform: translateY(100%);
     transition: transform 0.3s ease-in;
     z-index: 88;
   }
@@ -87,15 +84,6 @@ header .nav-list.active {
   }
   header .logo {
     padding-left: 4rem;
-  }
-}
-@media only screen and (max-width: 37.5rem) {
-  header .mobile-menu {
-    padding-right: 1rem;
-    z-index: 88;
-  }
-  header .logo {
-    padding-left: 1rem;
   }
 }
 
