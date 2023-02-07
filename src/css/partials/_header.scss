@@ -87,6 +87,7 @@ header {
       justify-content: space-around;
       display: none;
       transition: transform 0.3s ease-in;
+      z-index: 99;
 
       li {
         margin-left: 0;
