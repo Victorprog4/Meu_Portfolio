@@ -1,5 +1,5 @@
-/*header {
-  overflow-x: hidden;
+header {
+  overflow: hidden;
   a {
     color: #ffffff;
     text-decoration: none;
@@ -71,7 +71,7 @@
   //media tablet 844px
   @media only screen and (max-width: 52.75rem) {
     body {
-      overflow-x: hidden;
+      overflow: hidden;
     }
 
     .nav-list {
@@ -117,4 +117,3 @@
     }
   }
 }
-*/
