@@ -168,7 +168,7 @@
 }
 
 //media mobile small
-@media only screen and (max-width: 40rem) {
+@media only screen and (max-width: 25rem) {
   .projects {
     max-width: 25rem;
     display: flex;
@@ -178,10 +178,11 @@
     margin: 0 auto;
 
     .cards {
-      max-width: 18rem;
+      max-width: 18.75rem;
       width: 100%;
       display: flex;
       margin: 0 auto;
+      align-items: center;
       justify-content: center;
     }
 

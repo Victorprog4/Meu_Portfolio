@@ -350,7 +350,7 @@ h2, h3, h4, a, span, p {
   animation: aws1 3s ease-in-out 4.2s infinite alternate;
 }
 
-@media only screen and (max-width: 40rem) {
+@media only screen and (max-width: 25rem) {
   .projects {
     max-width: 25rem;
     display: flex;
@@ -360,10 +360,11 @@ h2, h3, h4, a, span, p {
     margin: 0 auto;
   }
   .projects .cards {
-    max-width: 18rem;
+    max-width: 18.75rem;
     width: 100%;
     display: flex;
     margin: 0 auto;
+    align-items: center;
     justify-content: center;
   }
 }
