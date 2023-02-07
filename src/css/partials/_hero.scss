@@ -41,7 +41,7 @@
 //media tablet
 @media only screen and (max-width: 52.75rem) {
   .container-hero {
-    padding: 0 4rem;
+    padding: 0 1rem;
     height: 31.25rem;
 
     .text-hero {
@@ -74,9 +74,6 @@
 
 //media mobile
 @media only screen and (max-width: 37.5rem) {
-  .container-hero {
-    padding: 0 1rem;
-  }
 
   .buttons-hero {
     button {

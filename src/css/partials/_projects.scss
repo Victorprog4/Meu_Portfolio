@@ -170,67 +170,20 @@
 //media mobile small
 @media only screen and (max-width: 25rem) {
   .projects {
-    width: 100%;
-    padding: 0 1rem;
-
-    .title {
-      max-width: 300px;
-      width: 100%;
-
-      h2 {
-        color: $white-200;
-        font-size: 2em;
-        letter-spacing: 4px;
-        font-weight: 500;
-      }
-    }
+    max-width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 
     .cards {
-      max-width: 25rem;
+      max-width: 18rem;
       width: 100%;
       display: flex;
-      flex-direction: column;
+      margin: 0 auto;
       justify-content: center;
-      align-items: center;
-      .card {
-        max-width: 19rem;
-        width: 19rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: nowrap;
-        margin: 1.5rem 0;
-
-        &:after {
-          width: 19rem;
-        }
-
-        p {
-          color: $white-300;
-          font-size: 1.125em;
-        }
-
-        .icons {
-          width: 100%;
-
-          i {
-            margin-top: 1.5rem;
-            margin-bottom: 1.5rem;
-            margin-right: 1rem;
-            font-size: 2em;
-            color: $black-100;
-          }
-        }
-        img {
-          width: 18rem;
-        }
-      }
     }
 
-    .buttons-project {
-      button {
-        margin-right: 1rem;
-      }
-    }
   }
 }

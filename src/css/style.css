@@ -132,7 +132,7 @@ h2, h3, h4, a, span, p {
 
 @media only screen and (max-width: 52.75rem) {
   .container-hero {
-    padding: 0 4rem;
+    padding: 0 1rem;
     height: 31.25rem;
   }
   .container-hero .text-hero h5 {
@@ -156,9 +156,6 @@ h2, h3, h4, a, span, p {
   }
 }
 @media only screen and (max-width: 37.5rem) {
-  .container-hero {
-    padding: 0 1rem;
-  }
   .buttons-hero button {
     margin-right: 2rem;
   }
@@ -355,58 +352,19 @@ h2, h3, h4, a, span, p {
 
 @media only screen and (max-width: 25rem) {
   .projects {
-    width: 100%;
-    padding: 0 1rem;
-  }
-  .projects .title {
-    max-width: 300px;
-    width: 100%;
-  }
-  .projects .title h2 {
-    color: #EDEDED;
-    font-size: 2em;
-    letter-spacing: 4px;
-    font-weight: 500;
-  }
-  .projects .cards {
     max-width: 25rem;
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
   }
-  .projects .cards .card {
-    max-width: 19rem;
-    width: 19rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    margin: 1.5rem 0;
-  }
-  .projects .cards .card:after {
-    width: 19rem;
-  }
-  .projects .cards .card p {
-    color: #DADADA;
-    font-size: 1.125em;
-  }
-  .projects .cards .card .icons {
+  .projects .cards {
+    max-width: 18rem;
     width: 100%;
-  }
-  .projects .cards .card .icons i {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    margin-right: 1rem;
-    font-size: 2em;
-    color: #707070;
-  }
-  .projects .cards .card img {
-    width: 18rem;
-  }
-  .projects .buttons-project button {
-    margin-right: 1rem;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
   }
 }
 @keyframes react1 {
