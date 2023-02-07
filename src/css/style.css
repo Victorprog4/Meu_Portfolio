@@ -1,104 +1,123 @@
-header {
+/*header {
   overflow-x: hidden;
-}
-header a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 1em;
-  position: relative;
-}
-header a::after {
-  content: "";
-  width: 0;
-  height: 0.2rem;
-  background: linear-gradient(203.6deg, #9f101c 15.2%, #670009 98.08%);
-  position: absolute;
-  left: 0;
-  bottom: -0.4em;
-  border-radius: 0 1rem 1rem 0;
-  transition: 0.5s;
-}
-header a:hover::after {
-  width: 100%;
-}
-header .logo {
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-}
-header nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #090909;
-  height: 8vh;
-}
-header .nav-list {
-  list-style: none;
-  display: flex;
-}
-header .nav-list li {
-  letter-spacing: 0.25rem;
-  margin-left: 4rem;
-}
-header .mobile-menu {
-  display: none;
-  cursor: pointer;
-  z-index: 88;
-}
-header .mobile-menu div {
-  width: 2rem;
-  height: 0.25em;
-  background: #9f101c;
-  margin: 0.5rem;
-  border-radius: 0.25em;
-}
-header .nav-list.active {
-  transform: translateX(0);
-}
-@media only screen and (max-width: 52.75rem) {
-  header body {
-    overflow-x: hidden;
-  }
-  header .nav-list {
-    position: absolute;
-    top: 8vh;
-    right: 0;
-    width: 46vw;
-    height: 48vh;
-    background-color: #090909;
-    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.45);
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in;
-    z-index: 88;
-  }
-  header .nav-list li {
-    margin-left: 0;
-    opacity: 0;
-  }
-  header .mobile-menu {
-    display: block;
-    padding-right: 4rem;
-  }
-  header .logo {
-    padding-left: 4rem;
-  }
-}
-@media only screen and (max-width: 37.5rem) {
-  header .mobile-menu {
-    padding-right: 1rem;
-    z-index: 88;
-  }
-  header .logo {
-    padding-left: 1rem;
-  }
-}
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+    position: relative;
 
+    &::after {
+      content: "";
+      width: 0;
+      height: 0.2rem;
+      background: linear-gradient(203.6deg, #9f101c 15.2%, #670009 98.08%);
+      position: absolute;
+      left: 0;
+      bottom: -0.4em;
+      border-radius: 0 1rem 1rem 0;
+      transition: 0.5s;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+
+  .logo {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #090909;
+    height: 8vh;
+  }
+
+  .nav-list {
+    list-style: none;
+    display: flex;
+
+    li {
+      letter-spacing: 0.25rem;
+      margin-left: 4rem;
+    }
+  }
+
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+    z-index: 88;
+
+    div {
+      width: 2rem;
+      height: 0.25em;
+      background: #9f101c;
+      margin: 0.5rem;
+      border-radius: 0.25em;
+    }
+  }
+
+  .nav-list.active {
+    transform: translateX(0);
+  }
+
+
+  //media tablet 844px
+  @media only screen and (max-width: 52.75rem) {
+    body {
+      overflow-x: hidden;
+    }
+
+    .nav-list {
+      position: absolute;
+      top: 8vh;
+      right: 0;
+      width: 46vw;
+      height: 48vh;
+      background-color: $background;
+      box-shadow: $box-shadow-300;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in;
+      z-index: 88;
+
+      li {
+        margin-left: 0;
+        opacity: 0;
+      }
+    }
+
+    .mobile-menu {
+      display: block;
+      padding-right: 4rem;
+    }
+
+    .logo {
+      padding-left: 4rem;
+    }
+  }
+
+  //media mobile 600px
+  @media only screen and (max-width: 37.5rem) {
+    .mobile-menu {
+      padding-right: 1rem;
+      z-index: 88;
+    }
+
+    .logo {
+      padding-left: 1rem;
+    }
+  }
+}
+*/
 h1, h5 {
   font-family: "Josefin Sans", sans-serif;
 }
