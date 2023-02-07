@@ -171,8 +171,7 @@
 @media only screen and (max-width: 25rem) {
   .projects {
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    padding: 0 1rem;
 
     .title {
       max-width: 300px;
@@ -187,8 +186,7 @@
     }
 
     .card {
-      max-width: 320px;
-      width: 100%;
+      width: 80%;
       display: flex;
       justify-content: center;
       align-items: center;
