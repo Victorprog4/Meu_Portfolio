@@ -71,7 +71,6 @@ header {
   //media tablet 844px
   @media only screen and (max-width: 52.75rem) {
     body {
-      max-width: 37.5rem;
       overflow-x: hidden;
     }
 
@@ -108,10 +107,6 @@ header {
 
   //media mobile 600px
   @media only screen and (max-width: 37.5rem) {
-    body {
-      max-width: 25rem;
-    }
-
     .mobile-menu {
       padding-right: 1rem;
       z-index: 88;

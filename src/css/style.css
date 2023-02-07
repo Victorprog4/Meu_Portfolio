@@ -60,7 +60,6 @@ header .nav-list.active {
 }
 @media only screen and (max-width: 52.75rem) {
   header body {
-    max-width: 37.5rem;
     overflow-x: hidden;
   }
   header .nav-list {
@@ -91,9 +90,6 @@ header .nav-list.active {
   }
 }
 @media only screen and (max-width: 37.5rem) {
-  header body {
-    max-width: 25rem;
-  }
   header .mobile-menu {
     padding-right: 1rem;
     z-index: 88;
@@ -376,10 +372,6 @@ h2, h3, h4, a, span, p {
 }
 
 @media only screen and (max-width: 25rem) {
-  body {
-    max-width: 25rem;
-    overflow-x: hidden;
-  }
   .projects {
     width: 100%;
     padding: 0 1rem;
