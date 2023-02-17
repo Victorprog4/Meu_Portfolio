@@ -536,6 +536,7 @@ body {
   margin: 0 auto;
   background-color: #090909;
   overflow-x: hidden;
+  border: 1px solid red;
 }
 
 ::-webkit-scrollbar-track {

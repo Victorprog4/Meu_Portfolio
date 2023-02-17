@@ -24,6 +24,7 @@ body {
   margin: 0 auto;
   background-color: $background;
   overflow-x: hidden;
+  border: 1px solid red;
 }
 
 ::-webkit-scrollbar-track {
