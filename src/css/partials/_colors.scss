@@ -16,6 +16,6 @@ $primary-color-linear: linear-gradient(59.74deg, #5B0008 18.59%, #9F101C 94.84%)
 $primary-color: #9F101C;
 
 // box-shadows
-$box-shadow-100: 2px 2px 8px rgba(0, 0, 0, 0.25);
-$box-shadow-200: 4px 4px 8px rgba(0, 0, 0, 0.35);
-$box-shadow-300: 6px 6px 12px rgba(0, 0, 0, 0.45);
+$box-shadow-100: .125em .125em .5em rgba(0, 0, 0, 0.25);
+$box-shadow-200: .25em .25em rgba(0, 0, 0, 0.35);
+$box-shadow-300: .375em .375em .75em rgba(0, 0, 0, 0.45);

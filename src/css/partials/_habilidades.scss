@@ -12,7 +12,7 @@
     h2 {
       color: $white-200;
       font-size: 3em;
-      letter-spacing: 4px;
+      letter-spacing: .25em;
       font-weight: 500;
     }
   }
@@ -24,7 +24,7 @@
 
     img {
       margin: 0 auto;
-      max-width: 660px;
+      max-width: 41.25rem;
       width: 100%;
       padding: 0 2rem;
     }
@@ -53,7 +53,7 @@
     opacity: 1;
   }
   100% {
-    transform: translateY(-34px);
+    transform: translateY(-2.125rem);
     opacity: 0;
   }
 }
@@ -71,6 +71,14 @@
   }
 }
 
+
+//add padding left and right 
+@media only screen and (max-width: 64rem) {
+  .skills {
+    padding: 0 1rem;
+  }
+}
+
 //media mobile small
 @media only screen and (max-width: 25rem) {
   .skills {
@@ -82,7 +90,7 @@
       h2 {
         color: $white-200;
         font-size: 2em;
-        letter-spacing: 4px;
+        letter-spacing: .25em;
         font-weight: 500;
       }
     }

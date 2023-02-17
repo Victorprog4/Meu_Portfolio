@@ -65,7 +65,7 @@ header .nav-list.active {
     width: 46vw;
     height: 48vh;
     background-color: #090909;
-    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.45);
+    box-shadow: 0.375em 0.375em 0.75em rgba(0, 0, 0, 0.45);
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -92,7 +92,7 @@ h1, h5 {
 
 h2, h3, h4, a, span, p {
   font-family: "Poppins", sans-serif;
-  letter-spacing: 2%;
+  letter-spacing: 1%;
   line-height: auto;
 }
 
@@ -157,7 +157,7 @@ h2, h3, h4, a, span, p {
 }
 @media only screen and (max-width: 37.5rem) {
   .buttons-hero button {
-    margin-right: 2rem;
+    margin-right: 1rem;
   }
 }
 @media only screen and (max-width: 25rem) {
@@ -166,12 +166,12 @@ h2, h3, h4, a, span, p {
   }
 }
 .btn {
-  border-radius: 5px;
+  border-radius: 0.313em;
   cursor: pointer;
   padding: 0.5em 1em;
   border: none;
   transition: 0.3s ease-in-out;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0.125em 0.125em 0.5em rgba(0, 0, 0, 0.25);
 }
 .btn a {
   text-decoration: none;
@@ -189,7 +189,7 @@ h2, h3, h4, a, span, p {
 }
 .btn-primary:hover {
   opacity: 1;
-  box-shadow: 0px 0px 12px rgba(111, 2, 11, 0.5);
+  box-shadow: 0em 0em 0.75em rgba(111, 2, 11, 0.5);
 }
 
 .btn-underline {
@@ -234,14 +234,14 @@ h2, h3, h4, a, span, p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 23.43rem;
-  width: 23.43rem;
+  max-width: 21.25rem;
+  width: 21.25rem;
   height: 33.75rem;
   border: 2px solid #707070;
   border-radius: 0.313em;
   padding: 0 1rem;
   transition: 0.6s;
-  margin: 4rem 0;
+  margin: 4rem 1rem;
 }
 .projects .cards .card:after {
   content: "UI/UX Design";
@@ -252,7 +252,7 @@ h2, h3, h4, a, span, p {
   align-items: center;
   display: flex;
   color: #EDEDED;
-  width: 23.43rem;
+  width: 21.25rem;
   height: 33.75rem;
   background-color: rgba(9, 9, 9, 0.9);
   z-index: 99;
@@ -281,7 +281,13 @@ h2, h3, h4, a, span, p {
   margin-bottom: 1.5rem;
   margin-right: 1rem;
   font-size: 2em;
-  color: #707070;
+  color: #505050;
+}
+.projects .cards .card .icons .figma-animation {
+  background: linear-gradient(180deg, #f24e1e 0%, #ff7262 20.47%, #a259ff 50.79%, #1abcfe 76.18%, #0acf83 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 .projects .cards .card-after-01:after {
   content: "UI/UX Design";
@@ -324,10 +330,10 @@ h2, h3, h4, a, span, p {
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
 }
-.projects .cards .buttons-project button {
-  margin-right: 3rem;
+.projects .cards img {
+  border-radius: 0.313em;
 }
 
 .react {
@@ -350,6 +356,11 @@ h2, h3, h4, a, span, p {
   animation: aws1 3s ease-in-out 4.2s infinite alternate;
 }
 
+@media only screen and (max-width: 64rem) {
+  .projects {
+    padding: 0 1rem;
+  }
+}
 @media only screen and (max-width: 25rem) {
   .projects {
     max-width: 25rem;
@@ -358,14 +369,6 @@ h2, h3, h4, a, span, p {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-  }
-  .projects .cards {
-    max-width: 18.75rem;
-    width: 100%;
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
   }
 }
 @keyframes react1 {
@@ -436,7 +439,7 @@ h2, h3, h4, a, span, p {
 .skills .title h2 {
   color: #EDEDED;
   font-size: 3em;
-  letter-spacing: 4px;
+  letter-spacing: 0.25em;
   font-weight: 500;
 }
 .skills .img-icons {
@@ -447,7 +450,7 @@ h2, h3, h4, a, span, p {
 }
 .skills .img-icons img {
   margin: 0 auto;
-  max-width: 660px;
+  max-width: 41.25rem;
   width: 100%;
   padding: 0 2rem;
 }
@@ -473,7 +476,7 @@ h2, h3, h4, a, span, p {
     opacity: 1;
   }
   100% {
-    transform: translateY(-34px);
+    transform: translateY(-2.125rem);
     opacity: 0;
   }
 }
@@ -489,6 +492,11 @@ h2, h3, h4, a, span, p {
     stroke-dashoffset: 300;
   }
 }
+@media only screen and (max-width: 64rem) {
+  .skills {
+    padding: 0 1rem;
+  }
+}
 @media only screen and (max-width: 25rem) {
   .skills .title {
     width: 100%;
@@ -497,13 +505,21 @@ h2, h3, h4, a, span, p {
   .skills .title h2 {
     color: #EDEDED;
     font-size: 2em;
-    letter-spacing: 4px;
+    letter-spacing: 0.25em;
     font-weight: 500;
   }
   .skills .img-icons {
     margin: 1rem 0;
   }
 }
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 3rem;
+  background-color: aqua;
+}
+
 * {
   margin: 0;
   padding: 0;
