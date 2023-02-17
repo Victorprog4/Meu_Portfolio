@@ -83,7 +83,7 @@
         }
 
         .figma-animation {
-           background: linear-gradient(
+          background: linear-gradient(
             180deg,
             #f24e1e 0%,
             #ff7262 20.47%,
@@ -157,7 +157,6 @@
       width: 100%;
       align-items: center;
       justify-content: space-between;
-
     }
 
     img {
@@ -197,5 +196,21 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+
+    .title {
+      width: auto;
+      height: 100%;
+
+      span {
+        color: $primary-color;
+      }
+
+      h2 {
+        color: $white-200;
+        font-size: 2em;
+        letter-spacing: 4px;
+        font-weight: 500;
+      }
+    }
   }
 }

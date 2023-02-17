@@ -370,6 +370,19 @@ h2, h3, h4, a, span, p {
     align-items: center;
     margin: 0 auto;
   }
+  .projects .title {
+    width: auto;
+    height: 100%;
+  }
+  .projects .title span {
+    color: #9F101C;
+  }
+  .projects .title h2 {
+    color: #EDEDED;
+    font-size: 2em;
+    letter-spacing: 4px;
+    font-weight: 500;
+  }
 }
 @keyframes react1 {
   from {
@@ -499,17 +512,13 @@ h2, h3, h4, a, span, p {
 }
 @media only screen and (max-width: 25rem) {
   .skills .title {
-    width: 100%;
+    width: auto;
     height: 100%;
   }
   .skills .title h2 {
     color: #EDEDED;
     font-size: 2em;
-    letter-spacing: 0.25em;
     font-weight: 500;
-  }
-  .skills .img-icons {
-    margin: 1rem 0;
   }
 }
 .footer {

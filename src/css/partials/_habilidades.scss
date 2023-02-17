@@ -83,19 +83,15 @@
 @media only screen and (max-width: 25rem) {
   .skills {
     .title {
-      width: 100%;
+      width: auto;
       height: 100%;
 
 
       h2 {
         color: $white-200;
         font-size: 2em;
-        letter-spacing: .25em;
         font-weight: 500;
       }
     }
-    .img-icons {
-      margin: 1rem 0;
-  }
 }
 }
