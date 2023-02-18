@@ -1,16 +1,17 @@
 header {
 
   a {
-    color: #ffffff;
+    color: $white-200;
     text-decoration: none;
     font-size: 1em;
     position: relative;
+    letter-spacing: 1px;
 
     &::after {
       content: "";
       width: 0;
       height: 0.2rem;
-      background: linear-gradient(203.6deg, #9f101c 15.2%, #670009 98.08%);
+      background: $primary-color-linear;
       position: absolute;
       left: 0;
       bottom: -0.4em;
@@ -35,7 +36,7 @@ header {
     align-items: center;
     justify-content: space-between;
     font-family: 'Poppins' sans-serif;
-    background: #090909;
+    background: $background;
     height: 8vh;
   }
 
@@ -56,7 +57,7 @@ header {
     div {
       width: 2rem;
       height: 0.25em;
-      background: #9f101c;
+      background: $primary-color;
       margin: 0.5rem;
       border-radius: 0.25em;
     }
