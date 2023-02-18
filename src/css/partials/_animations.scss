@@ -60,3 +60,20 @@
       transform: translateX(0);
     }
   }
+
+
+//animação de giro da foto da seção sobre
+.circulo-giratorio {
+  opacity: 1;
+  transform-origin: center center;
+  animation: gira-circulo 30s ease infinite forwards;
+}
+
+@keyframes gira-circulo {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+     transform: rotate(360deg);
+  }
+}
