@@ -571,10 +571,10 @@ h2, h3, h4, a, span, p {
   align-items: center;
   justify-content: center;
   gap: 4rem;
+  margin-top: 2rem;
 }
 .sobre .content .photo_social .icons-sobre i {
   font-size: 2.5em;
-  margin-top: 2rem;
   color: #BDBDBD;
   transition: 0.4s;
 }
