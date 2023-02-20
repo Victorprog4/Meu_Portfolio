@@ -282,10 +282,10 @@ h2, h3, h4, a, span, p {
   content: "UI/UX Design";
 }
 .projects .cards .card-after-02:after {
-  content: "Product Manager";
+  content: "UI/UX Design";
 }
 .projects .cards .card-after-03:after {
-  content: "Product Design";
+  content: "UI/UX Design";
 }
 .projects .cards .card-after-04:after {
   content: "Dev front-end";
@@ -323,6 +323,10 @@ h2, h3, h4, a, span, p {
 }
 .projects .cards img {
   border-radius: 0.313em;
+}
+.projects hr {
+  margin-top: 5rem;
+  opacity: 0.1;
 }
 
 .title {
@@ -545,6 +549,10 @@ h2, h3, h4, a, span, p {
   margin: 2rem 0;
   color: #DADADA;
   font-size: 1em;
+}
+.sobre .content .text_btn p span, .sobre .content .text_btn p a {
+  text-decoration: none;
+  color: #9F101C;
 }
 .sobre .content .text_btn button {
   margin-top: 2rem;

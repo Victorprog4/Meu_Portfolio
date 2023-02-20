@@ -18,6 +18,11 @@
         margin: 2rem 0;
         color: $white-300;
         font-size: 1em;
+
+        span, a {
+          text-decoration: none;
+          color: $primary-color;
+        }
       }
 
       button {

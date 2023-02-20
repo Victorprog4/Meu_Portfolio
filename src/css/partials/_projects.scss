@@ -92,13 +92,13 @@
 
     .card-after-02 {
       &:after {
-        content: "Product Manager";
+        content: "UI/UX Design";
       }
     }
 
     .card-after-03 {
       &:after {
-        content: "Product Design";
+        content: "UI/UX Design";
       }
     }
 
@@ -148,6 +148,11 @@
     img {
       border-radius: 0.313em;
     }
+  }
+
+  hr {
+    margin-top: 5rem;
+    opacity: 0.1;
   }
 }
 
