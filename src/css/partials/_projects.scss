@@ -102,40 +102,24 @@
       }
     }
 
-    .card-after-04 {
+     .card-after-04 {
       &:after {
-        content: "Dev front-end";
-      }
-
-      &:hover {
-        border: 2px solid $primary-color;
-      }
-
-      &:hover:after {
-        background-color: rgba(0, 0, 0, 0);
-        color: transparent;
-        font-size: 20%;
-        width: 0px;
-        height: 0px;
-      }
-
-      p {
-        color: $white-300;
-        font-size: 1.125em;
-      }
-
-      .icons {
-        width: 100%;
-
-        i {
-          margin-top: 1.5rem;
-          margin-bottom: 1.5rem;
-          margin-right: 1rem;
-          font-size: 2em;
-          color: $black-100;
-        }
+        content: "Desenvolvimento Front-end";
       }
     }
+     .card-after-05 {
+      &:after {
+        content: "Desenvolvimento Front-end";
+      }
+    }
+     .card-after-06 {
+      &:after {
+        content: "Desenvolvimento Front-end & UI Design";
+      }
+    }
+
+
+    
 
     .buttons-project {
       margin-top: 2rem;
