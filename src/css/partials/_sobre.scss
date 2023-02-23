@@ -19,7 +19,8 @@
         color: $white-300;
         font-size: 1em;
 
-        span, a {
+        span,
+        a {
           text-decoration: none;
           color: $primary-color;
         }
@@ -62,7 +63,7 @@
     }
   }
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 43.75rem) {
     .content {
       flex-wrap: wrap;
 
@@ -75,13 +76,10 @@
         align-items: center;
         padding-right: 0;
         text-align: center;
-        padding: 0 1rem;
       }
 
-       .icons-sobre {
-
+      .icons-sobre {
         i {
-
           &:active {
             color: $primary-color;
             box-shadow: 0em 0em 1em rgba(111, 2, 11, 0.7);
@@ -90,5 +88,11 @@
         }
       }
     }
+  }
+}
+
+@media only screen and (max-width: 64rem) {
+  .sobre {
+    padding: 0 1rem;
   }
 }

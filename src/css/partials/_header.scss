@@ -67,6 +67,9 @@ header {
     display: flex;
   }
 
+@media only screen and (max-width: 64rem) {
+  padding: 0 1rem;
+}
 
   //media tablet 844px
   @media only screen and (max-width: 52.75rem) {
@@ -97,11 +100,6 @@ header {
 
     .mobile-menu {
       display: block;
-      padding-right: 1rem;
-    }
-
-    .logo {
-      padding-left: 1rem;
     }
   }
 }

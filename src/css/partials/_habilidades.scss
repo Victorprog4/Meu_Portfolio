@@ -29,35 +29,11 @@
   opacity: 0;
 }
 
-@keyframes layer-subindo-200 {
-  0% {
-    transform: translateY(0);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-2.125rem);
-    opacity: 0;
-  }
-}
-
 .stroke-entorno {
   animation: stroke-entorno 9s linear infinite alternate;
 }
 
-@keyframes stroke-entorno {
-  from {
-    stroke-dasharray: 20;
-  }
-  to {
-    stroke-dashoffset: 300;
-  }
-}
-
-
-//add padding left and right 
+//padding lateral
 @media only screen and (max-width: 64rem) {
   .skills {
     padding: 0 1rem;

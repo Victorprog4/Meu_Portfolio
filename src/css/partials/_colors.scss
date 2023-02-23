@@ -6,16 +6,52 @@ $black-300: #303030;
 $black-200: #505050;
 $black-100: #707070;
 
-$white-500: #9C9C9C;
-$white-400: #BDBDBD;
-$white-300: #DADADA;
-$white-200: #EDEDED;
-$white-100: #FFFFFF;
+$white-500: #9c9c9c;
+$white-400: #bdbdbd;
+$white-300: #dadada;
+$white-200: #ededed;
+$white-100: #ffffff;
 
-$primary-color-linear: linear-gradient(59.74deg, #5B0008 18.59%, #9F101C 94.84%);
-$primary-color: #9F101C;
+$primary-color-linear: linear-gradient(
+  59.74deg,
+  #5b0008 18.59%,
+  #9f101c 94.84%
+);
+$primary-color: #9f101c;
 
 // box-shadows
-$box-shadow-100: .125em .125em .5em rgba(0, 0, 0, 0.25);
-$box-shadow-200: .25em .25em rgba(0, 0, 0, 0.35);
-$box-shadow-300: .375em .375em .75em rgba(0, 0, 0, 0.45);
+$box-shadow-100: 0.125em 0.125em 0.5em rgba(0, 0, 0, 0.25);
+$box-shadow-200: 0.25em 0.25em rgba(0, 0, 0, 0.35);
+$box-shadow-300: 0.375em 0.375em 0.75em rgba(0, 0, 0, 0.45);
+
+//colores dos icones da seção de projetos
+
+.color-vue {
+  color: #41b883;
+}
+
+.color-javascript {
+  color: #f7e018;
+}
+
+.color-html {
+  color: #e54c21;
+}
+
+.color-css {
+  color: #1a6db1;
+}
+
+.color-figma {
+  background: linear-gradient(
+    180deg,
+    #f24e1e 0%,
+    #ff7262 20.47%,
+    #a259ff 50.79%,
+    #1abcfe 76.18%,
+    #0acf83 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
