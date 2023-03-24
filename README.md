@@ -29,7 +29,7 @@
 #### Clone o projeto. 🛠️
 `git clone https://github.com/Victorprog4/Meu_Portfolio.git`
 
-#### ou faço o download em zip, extraia os arquivos e utilize. 📁
+#### ou faça o download em zip, extraia os arquivos e utilize. 📁
 <br>
 
 #### Ah, se gostar do projeto deixe um ⭐
